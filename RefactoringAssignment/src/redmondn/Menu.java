@@ -21,8 +21,8 @@ public class Menu extends JFrame{
 	private ArrayList<Customer> customerList = new ArrayList<Customer>();
     private int position = 0;
 	private String password;
-	private Customer customer = null;
-	private CustomerAccount acc = new CustomerAccount();
+	Customer customer = null;
+	CustomerAccount acc = new CustomerAccount();
 	JFrame f, f1;
 	 JLabel firstNameLabel, surnameLabel, pPPSLabel, dOBLabel;
 	 JTextField firstNameTextField, surnameTextField, pPSTextField, dOBTextField;

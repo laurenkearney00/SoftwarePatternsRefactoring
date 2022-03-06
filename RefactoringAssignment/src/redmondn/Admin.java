@@ -1,10 +1,9 @@
 package redmondn;
 
+import javax.swing.JLabel;
+
 public class Admin extends Menu {
 	Menu menu = new Menu();
-	
-	dispose();
-	
 	
 
 	JLabel label1 = new JLabel("Please select an option");
